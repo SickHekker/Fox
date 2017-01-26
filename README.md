@@ -20,3 +20,5 @@ the keys 1 untill 5 are diffrent speeds.
 the keys R T Y are to change the speed at which the tank turns.
 
 to stream video you can use motion, im not going into detail here but make sure you disable motion detection, motion tracking and disable the function that it takes photos when motion is detected otherwise your storage will fill up with pictures
+
+Have fun :D
