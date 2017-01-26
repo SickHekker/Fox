@@ -58,7 +58,6 @@ class Robot(object):
         """Stop all movement."""
         self._left.run(Adafruit_MotorHAT.RELEASE)
         self._right.run(Adafruit_MotorHAT.RELEASE)
-	self._turret.run(Adafruit_MotorHAT.RELEASE)
 
     def forward(self, speed, seconds=None):
         """Move forward at the specified speed (0-255).  Will start moving
