@@ -1,6 +1,5 @@
-# Simple two DC motor robot class.  Exposes a simple LOGO turtle-like API for
-# moving a robot forward, backward, and turning.  See RobotTest.py for an
-# example of using this class.
+# Note this isn't my code, from the adafruit examples
+# i just edited for my needs
 # Author: Tony DiCola
 # License: MIT License https://opensource.org/licenses/MIT
 import time
