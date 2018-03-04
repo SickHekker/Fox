@@ -53,11 +53,24 @@ class Robot(object):
         speed = max(0, min(255, speed))  # Constrain speed to 0-255 after trimming.
         self._right.setSpeed(speed)
 
+    
+    
+    
     def stop(self):
         """Stop all movement."""
         self._left.run(Adafruit_MotorHAT.RELEASE)
         self._right.run(Adafruit_MotorHAT.RELEASE)
-
+        
+    def stopleft(self):
+        """Stop all movement."""
+        self._left.run(Adafruit_MotorHAT.RELEASE)
+        
+    def stopright(self):
+        """Stop all movement."""
+        self._right.run(Adafruit_MotorHAT.RELEASE)
+    
+     
+    
     def forward(self, speed, seconds=None):
         """Move forward at the specified speed (0-255).  Will start moving
         forward and return unless a seconds value is specified, in which
@@ -88,6 +101,8 @@ class Robot(object):
             time.sleep(seconds)
             self.stop()
 
+    
+    
     def right(self, speed, seconds=None):
         """Spin to the right at the specified speed.  Will start spinning and
         return unless a seconds value is specified, in which case the robot will
