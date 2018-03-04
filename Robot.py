@@ -1,4 +1,3 @@
-
 # Author: Tony DiCola
 # License: MIT License https://opensource.org/licenses/MIT
 # Note this isn't fully my code, its from Adafruit
