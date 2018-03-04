@@ -38,7 +38,7 @@ try:
             elif char == ord('e'):
                 robot.stop()
  	    elif char == ord('1'):
-		speed = 75
+		speed = 50
 	    elif char == ord('2'):
 		speed = 100
 	    elif char == ord('3'):
@@ -46,9 +46,9 @@ try:
 	    elif char == ord('4'):
 		speed = 200
 	    elif char == ord('5'):
-		speed = 250
+		speed = 255
             elif char == ord('r'):
-		turn = 75
+		turn = 50
 	    elif char == ord('t'):
 		turn = 100
 	    elif char == ord('y'):
