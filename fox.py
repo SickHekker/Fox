@@ -1,3 +1,5 @@
+# Made by: SickHekker
+
 import time, Robot, curses
 
 LEFT_TRIM   = 0
@@ -56,7 +58,7 @@ try:
 		
 
 finally:
-    #Close down curses properly, inc turn echo back on!
+    #Close down curses
     curses.nocbreak(); screen.keypad(0); curses.echo()
     curses.endwin() 
 
