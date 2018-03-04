@@ -1,7 +1,9 @@
-# Note this isn't my code, from the adafruit examples
-# i just edited for my needs
+
 # Author: Tony DiCola
 # License: MIT License https://opensource.org/licenses/MIT
+# Note this isn't fully my code, its from Adafruit
+# I added some things
+
 import time
 import atexit
 
