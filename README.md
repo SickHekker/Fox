@@ -29,7 +29,7 @@ sudo python fox.py
 ```
 
 You can use W A S D to drive the tank.
-And E to stop it.
+And E to stop it, Q will stop the tank and exit the program.
 the keys 1 until 5 are diffrent speeds.
 the keys R T Y are to change the speed at which the tank turns.
 
