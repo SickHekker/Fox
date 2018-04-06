@@ -21,7 +21,7 @@ cd Adafruit-Motor-HAT-Python-Library
 
 sudo python setup.py install
 
-cd ~
+cd
 
 cd Fox
 
